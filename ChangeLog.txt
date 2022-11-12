@@ -1,0 +1,13 @@
+/* Encoding: UTF-8 (No BOM)  Notation (in 5th position):
+     * Change, ! Fix, % Optimization, + Addition, - Removal, ; Comment
+   Entries may not always be in chronological/commit order.
+   See license at the end of file. */
+
+2022-11-12 22:50 UTC+0100 Aleksander Czajczynski (hb fki.pl)
+  + zeputils.hbc
+  + zeputils.hbp
+    ; imported https://github.com/Rezonality/mutils
+      which is a library needed to build Zep editor
+
+    + added hbmk2 build projects to not rely on cmake here,
+      only including those parts that are needed to build Zep now
